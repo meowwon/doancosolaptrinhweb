@@ -31,16 +31,16 @@
 
                     <form style="width: 23rem;">
 
-                        <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Đăng nhập</h3>
+                        <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
 
                         <div data-mdb-input-init class="form-outline mb-4">
                             <input type="email" id="form2Example18" class="form-control form-control-lg" />
-                            <label class="form-label" for="form2Example18">Email</label>
+                            <label class="form-label" for="form2Example18">Email address</label>
                         </div>
 
                         <div data-mdb-input-init class="form-outline mb-4">
                             <input type="password" id="form2Example28" class="form-control form-control-lg" />
-                            <label class="form-label" for="form2Example28">Mật khẩu</label>
+                            <label class="form-label" for="form2Example28">Password</label>
                         </div>
 
                         <div class="pt-1 mb-4">
@@ -48,8 +48,8 @@
                                 type="button">Login</button>
                         </div>
 
-                        <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Quên mật khẩu ?</a></p>
-                        <p>Chưa có tài khoản ? <a href="/register.html" class="link-info">Đăng kí tại đây !</a></p>
+                        <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
+                        <p>Don't have an account? <a href="/register.html" class="link-info">Register here</a></p>
 
                     </form>
 
