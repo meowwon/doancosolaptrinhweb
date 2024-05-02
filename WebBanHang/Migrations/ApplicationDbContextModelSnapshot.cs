@@ -347,10 +347,25 @@ namespace WebBanHang.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("congtyphathanh")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("countbuy")
                         .HasColumnType("int");
 
                     b.Property<int>("like")
+                        .HasColumnType("int");
+
+                    b.Property<string>("loaibia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nhasanxuat")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("sotrang")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
