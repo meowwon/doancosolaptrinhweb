@@ -12,15 +12,15 @@ using WebBanHang.Models;
 namespace WebBanHang.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240501172504_dulieu")]
-    partial class dulieu
+    [Migration("20240504204312_Menu")]
+    partial class Menu
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.3")
+                .HasAnnotation("ProductVersion", "8.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -241,6 +241,9 @@ namespace WebBanHang.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("MenuCategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -248,7 +251,27 @@ namespace WebBanHang.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("MenuCategoryId");
+
                     b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("WebBanHang.Models.MenuCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MenuCategories");
                 });
 
             modelBuilder.Entity("WebBanHang.Models.Order", b =>
@@ -325,6 +348,9 @@ namespace WebBanHang.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Catagorytong")
+                        .HasColumnType("int");
+
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
@@ -350,10 +376,25 @@ namespace WebBanHang.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("congtyphathanh")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("countbuy")
                         .HasColumnType("int");
 
                     b.Property<int>("like")
+                        .HasColumnType("int");
+
+                    b.Property<string>("loaibia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nhasanxuat")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("sotrang")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -438,6 +479,13 @@ namespace WebBanHang.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("WebBanHang.Models.Category", b =>
+                {
+                    b.HasOne("WebBanHang.Models.MenuCategory", null)
+                        .WithMany("Categorys")
+                        .HasForeignKey("MenuCategoryId");
+                });
+
             modelBuilder.Entity("WebBanHang.Models.Order", b =>
                 {
                     b.HasOne("WebBanHang.Models.ApplicationUser", "ApplicationUser")
@@ -499,6 +547,11 @@ namespace WebBanHang.Migrations
             modelBuilder.Entity("WebBanHang.Models.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("WebBanHang.Models.MenuCategory", b =>
+                {
+                    b.Navigation("Categorys");
                 });
 
             modelBuilder.Entity("WebBanHang.Models.Order", b =>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\đồ án cơ sở\\WebBanHang\\WebBanHang\\WebBanHang.csproj": {}
+    "D:\\DoAnCoSo\\1\\doancosohutech\\WebBanHang\\WebBanHang.csproj": {}
   },
   "projects": {
-    "D:\\đồ án cơ sở\\WebBanHang\\WebBanHang\\WebBanHang.csproj": {
+    "D:\\DoAnCoSo\\1\\doancosohutech\\WebBanHang\\WebBanHang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\đồ án cơ sở\\WebBanHang\\WebBanHang\\WebBanHang.csproj",
+        "projectUniqueName": "D:\\DoAnCoSo\\1\\doancosohutech\\WebBanHang\\WebBanHang.csproj",
         "projectName": "WebBanHang",
-        "projectPath": "D:\\đồ án cơ sở\\WebBanHang\\WebBanHang\\WebBanHang.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\đồ án cơ sở\\WebBanHang\\WebBanHang\\obj\\",
+        "projectPath": "D:\\DoAnCoSo\\1\\doancosohutech\\WebBanHang\\WebBanHang.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\DoAnCoSo\\1\\doancosohutech\\WebBanHang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,33 +47,33 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
