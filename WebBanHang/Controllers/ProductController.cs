@@ -113,10 +113,11 @@ public async Task<IActionResult> Display(int id)
             }
             // Cập nhật các thông tin khác của sản phẩm
         
-existingProduct.Name = product.Name;
+            existingProduct.Name = product.Name;
             existingProduct.Price = product.Price;
             existingProduct.Description = product.Description;
             existingProduct.CategoryId = product.CategoryId;
+                existingProduct.Category.menuid = product.Category.menuid;
             existingProduct.ImageUrl = product.ImageUrl;
             await _productRepository.UpdateAsync(existingProduct);
             return RedirectToAction(nameof(Index));

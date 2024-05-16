@@ -1,8 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using WebBanHang.Models;
 using WebBanHang.Repositories;
+using System.Linq;
+using System.Threading.Tasks;
+using WebBanHang.Data;
+
 
 namespace WebBanHang.Areas.Admin.Controllers
 {
@@ -10,6 +15,7 @@ namespace WebBanHang.Areas.Admin.Controllers
     [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
+        private readonly ApplicationDbContext _context;
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
         public ProductController(IProductRepository productRepository,
@@ -75,7 +81,6 @@ namespace WebBanHang.Areas.Admin.Controllers
             }
             return View(product);
         }
-        // Hiển thị form cập nhật sản phẩm
         public async Task<IActionResult> Update(int id)
         {
             var product = await _productRepository.GetByIdAsync(id);
@@ -87,6 +92,7 @@ namespace WebBanHang.Areas.Admin.Controllers
             ViewBag.Categories = new SelectList(categories, "Id", "Name",
             product.CategoryId);
             return View(product);
+
         }
         // Xử lý cập nhật sản phẩm
         [HttpPost]
@@ -120,6 +126,12 @@ namespace WebBanHang.Areas.Admin.Controllers
                 existingProduct.Price = product.Price;
                 existingProduct.Description = product.Description;
                 existingProduct.CategoryId = product.CategoryId;
+                existingProduct.author = product.author;
+                existingProduct.congtyphathanh = product.congtyphathanh;
+                existingProduct.loaibia = product.loaibia;
+                existingProduct.sotrang = product.sotrang;
+                existingProduct.nhasanxuat = product.nhasanxuat;
+                
                 existingProduct.ImageUrl = product.ImageUrl;
                 await _productRepository.UpdateAsync(existingProduct);
                 return RedirectToAction(nameof(Index));
@@ -145,5 +157,44 @@ namespace WebBanHang.Areas.Admin.Controllers
             await _productRepository.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
+        public IActionResult Search(string searchTerm)
+        {
+            // Gọi phương thức tìm kiếm từ repository
+            IEnumerable<Product> searchResults = _productRepository.Searchsach(searchTerm);
+
+            // Trả về view với kết quả tìm kiếm
+            return View("SearchResults", searchResults);
+        }
+
+        public async Task<IActionResult> SortByName()
+        {
+            var sortedProducts = await _productRepository.GetAllAsync();
+            sortedProducts = sortedProducts.OrderBy(p => p.Name);
+            return View("Index", sortedProducts);
+        }
+        // tăng dần và giảm dần 
+        public async Task<IActionResult> SortByPriceAsc()
+        {
+            var sortedProducts = await _productRepository.GetAllAsync();
+            sortedProducts = sortedProducts.OrderBy(p => p.Price);
+            return View("Index", sortedProducts);
+        }
+        public async Task<IActionResult> giamPriceAsc()
+        {
+            var sortedProducts = await _productRepository.GetAllAsync();
+            sortedProducts = sortedProducts.OrderByDescending(p => p.Price);
+            return View("Index", sortedProducts);
+        }
+
+        public async Task<ActionResult> ProductCategory()
+        {
+            // Assuming `_context` is your database context and it has a set `Categories`
+            var categoriesWithProducts = await _context.Categories
+                                        .Include(c => c.Products) // Include products for each category
+                                        .ToListAsync();
+
+            return View(categoriesWithProducts);
+        }
+
     }
 }

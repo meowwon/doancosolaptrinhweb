@@ -33,7 +33,7 @@ namespace WebBanHang.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Add(MenuCategory menuCategory)
+        public async Task<IActionResult> Add(Menu menuCategory)
         {
             if (ModelState.IsValid)
             {
@@ -52,7 +52,7 @@ namespace WebBanHang.Controllers
             return View(menucategory);
         }
         [HttpPost]
-        public async Task<IActionResult> Update(int id, MenuCategory menuCategory)
+        public async Task<IActionResult> Update(int id, Menu menuCategory)
         {
             if (id != menuCategory.Id)
             {

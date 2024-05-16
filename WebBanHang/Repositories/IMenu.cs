@@ -4,10 +4,10 @@ namespace WebBanHang.Repositories
 {
     public interface IMenu
     {
-        Task<IEnumerable<MenuCategory>> GetAllAsync();
-        Task<MenuCategory> GetByIdAsync(int id);
-        Task AddAsync(MenuCategory menucategory);
-        Task UpdateAsync(MenuCategory menucategory);
+        Task<IEnumerable<Menu>> GetAllAsync();
+        Task<Menu> GetByIdAsync(int id);
+        Task AddAsync(Menu menu);
+        Task UpdateAsync(Menu menu);
         Task DeleteAsync(int id);
     }
 }

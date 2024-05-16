@@ -3,51 +3,15 @@
     ViewData["Title"] = "Home Page";
     int numOfQuantity = 1;
 }
+    
 <div>
-    <div class="menu">
-        <ul id="menu">
-            <li><a href="#">Trang chủ</a></li>
-            <li>
-                <a href="#">Danh mục 1</a>
-                <ul id="submenu">
-                    <li>
-                        <a href="#">Danh mục con 1.1</a>
-                        <ul id="sub-submenu">
-                            <li>
-                                <a href="#">Mục con 1.1.1</a>
-                                <ul id="sub-sub-submenu">
-                                    <li><a href="#">Mục con 1.1.1.1</a></li>
-                                    <li><a href="#">Mục con 1.1.1.2</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Mục con 1.1.2</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Danh mục con 1.2</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Danh mục 2</a>
-                <ul id="submenu">
-                    <li><a href="#">Danh mục con 2.1</a></li>
-                    <li><a href="#">Danh mục con 2.2</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Liên hệ</a></li>
-        </ul>
-
-
-    </div>
+    <partial name="MenuPartial" />
 <div class="wp-content">
     <div class="ratings">
         <div>
             <h2>Thể loại</h2>
-            @foreach (var categoryName in Model.Where(n => n.Category != null && n.Category.Name != null)
-            .Select(n => n.Category.Name)
-            .Distinct())
-            {
-                <h2>@categoryName</h2>
-            }
+              
+
         </div>
     </div>
 <div id="carouselExampleIndicators" data-mdb-carousel-init class="carousel slide" data-mdb-ride="carousel">
@@ -84,7 +48,7 @@
     </button>
 </div>
     <div class="slider">
-        <h2> trang yeu thich</h2>
+        <h2>Trang Yêu Thích</h2>
         <div class="love">
 
             @foreach (var item in Model.OrderByDescending(p => p.like).Take(4))
@@ -105,38 +69,5 @@
         </div>
     </div>
     </div>
-    <div class="container px-4 px-lg-5 mt-5">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-
-content-center">
-
-
-            @foreach (var item in Model)
-            {
-                <div class="col mb-5">
-                    <div class="card gap-3" style="width: 18rem">
-                        <img src="@item.ImageUrl" class="card-img-top" alt="..."
-                             style="height: 300px">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                @Html.DisplayFor(modelItem =>
-                                         item.Name)
-                            </h5>
-                            <div class="d-flex">
-                                <span>Price: </span>
-                                <p class="mx-3">@item.Price.ToString("#,##0") Vnđ</p>
-                              
-                            </div>
-                            
-                            <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id"
-                               asp-route-quantity="@numOfQuantity">
-                                <button class="btn btn-outline-dark"> <i class="bi-cart-fill me-1"></i> Add to Cart </button>
-                            </a>
-
-                        <a asp-controller="Home" asp-action="Detail" class="btn btn-primary font-control" asp-route-id="@item.Id">chi tiết</a>
-                        </div>
-                    </div>
-                </div>
-            }
-        </div>
-    </div>
+    <partial name="ProductsByCategory" />
 </div>
