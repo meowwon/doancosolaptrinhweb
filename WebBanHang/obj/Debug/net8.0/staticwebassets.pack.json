@@ -113,8 +113,16 @@
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\13538f3424087d76e604699f6b8c127a.jpg.webp",
+      "PackagePath": "staticwebassets\\images\\13538f3424087d76e604699f6b8c127a.jpg.webp"
+    },
+    {
       "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\16a27d12342c5c525bb59e0ae47c26fd.jpg.webp",
       "PackagePath": "staticwebassets\\images\\16a27d12342c5c525bb59e0ae47c26fd.jpg.webp"
+    },
+    {
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\2a6154ba08df6ce6161c13f4303fa19e.jpg.webp",
+      "PackagePath": "staticwebassets\\images\\2a6154ba08df6ce6161c13f4303fa19e.jpg.webp"
     },
     {
       "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\Screenshot 2024-03-21 190728.png",
@@ -131,6 +139,14 @@
     {
       "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\bình cc.jpg",
       "PackagePath": "staticwebassets\\images\\bình cc.jpg"
+    },
+    {
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\logo CMYK-03.png",
+      "PackagePath": "staticwebassets\\images\\logo CMYK-03.png"
+    },
+    {
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\logosach.jfif",
+      "PackagePath": "staticwebassets\\images\\logosach.jfif"
     },
     {
       "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\qthdc.png",

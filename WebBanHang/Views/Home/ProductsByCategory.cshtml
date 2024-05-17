@@ -17,7 +17,14 @@
                         <img src="@item.ImageUrl" class="card-img-top" alt="..." style="height: 300px">
                         <div class="card-body">
                             <h5 class="card-title">
-                                @Html.DisplayFor(modelItem => item.Name)
+                                @if (item.Name.Length > 20)
+                                {
+                                    <span title="@item.Name">@item.Name.Substring(0, 25)...</span>
+                                }
+                                else
+                                {
+                                    <span>@item.Name</span>
+                                }
                             </h5>
                             <div class="d-flex">
                                 <span>Price: </span>

@@ -432,5 +432,56 @@ img.d-block.w-100 {
     text-align: center;
 }
 
+.menu {
+    z-index: 9;
+}
 
-. 
+.slider-frame {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px; /* Adjust width as needed */
+    max-width: 100%; /* Ensure the card doesn't exceed its container's width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Add smooth transition effect */
+}
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+.love {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    width: auto;
+    height: 200px;
+    justify-content: center; /* Center the cards horizontally */
+}
+
+.slider {
+    margin: 0 auto; /* Center the slider horizontally */
+    max-width: 100%; /* Ensure the slider doesn't exceed its container's width */
+}
+.gap-3 {
+    height: 500px;
+}
+.footerlogohutech {
+    width: 100%; /* Thi?t l?p chi?u r?ng c?a ph?n t? là 100% */
+    text-align: center; /* Canh gi?a n?i dung trong ph?n t? */
+}
+
+.footer-banner {
+    height:150px;
+    width: 100%; /* Thi?t l?p chi?u r?ng c?a banner là 100% */
+    max-width: 100%; /* Gi?i h?n chi?u r?ng t?i ?a c?a banner là 100% */
+}
+
+
