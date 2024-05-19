@@ -3,9 +3,14 @@
     ViewData["Title"] = "Home Page";
     int numOfQuantity = 1;
 }
-<nav class="navbar navbar-light bg-success ">
-    <div class="container-fluid ">
+<nav class="navbar navbar-light bg-success">
+    <div class="container-fluid">
         <partial name="MenuPartial" />
+
+        @if (User.IsInRole("Admin"))
+        {
+            <a class="btn btn-primary" href="/Admin/ad">Quản lí trang web</a>
+        }
     </div>
 </nav>
 
@@ -30,24 +35,28 @@
 <div class="slider-frame">
     <div class="slider">
         <h2 style="text-align: center; margin-bottom: 20px;">Sách Được Yêu Thích Nhiều Nhất</h2>
-        <div class="love" style="display: flex; flex-direction: row; overflow-x: auto; gap: 20px; padding: 10px;">
-            @foreach (var item in Model.OrderByDescending(p => p.like).Take(4))
+        <div class="love" style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px;">
+
+            @foreach (var item in Model.OrderByDescending(p => p.like).Take(5))
             {
                 <a asp-controller="Home" asp-action="Detail" class="lovedetail" asp-route-id="@item.Id" style="text-decoration: none;">
-                    <div class="loveall card">
-                        <div class="loveimg w-25 p-3">
+                    <div class="loveall card" style="flex: 0 0 auto; width: 200px;">
+                        <div class="loveimg p-3">
                             <img src="@item.ImageUrl" width="50px" height="50px" style="border-radius: 50%;">
                         </div>
                         <div class="lovenameandlike" style="text-align: center;">
-                            <p style="font-weight: bold; margin-bottom: 5px;">@item.Name</p>
+                            <p style="font-weight: bold; margin-bottom: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="@item.Name">@item.Name</p>
                             <p style="color: #888;"><i class="bi bi-heart-fill"></i> Like: @item.like</p>
                         </div>
                     </div>
                 </a>
             }
+
         </div>
     </div>
 </div>
+
+
 
 
 
