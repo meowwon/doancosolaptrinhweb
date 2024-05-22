@@ -1,6 +1,5 @@
 ﻿@page
 @model LoginModel
-
 @{
     ViewData["Title"] = "Log in";
 }
@@ -19,9 +18,10 @@
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
                 <div class="form-floating">
-                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
+                    <input asp-for="Input.Password" id="password" class="form-control" autocomplete="current-password" aria-required="true" />
                     <label asp-for="Input.Password" class="form-label"></label>
                     <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    <div id="capslock-warning" class="text-warning" hidden>Caps Lock is on!</div>
                 </div>
                 <div>
                     <div class="checkbox">
@@ -49,39 +49,37 @@
         </section>
     </div>
     <div class="col-md-6 col-md-offset-2">
-        <section>
-            <h3>Use another service to log in.</h3>
-            <hr />
-            @{
-                if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                {
-                    <div>
-                        <p>
-                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
-                                article
-                                about setting up this ASP.NET application to support logging in via external services
-                            </a>.
-                        </p>
+        <div class="container-fluid">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://file.vnua.edu.vn/data/31/images/2024/03/11/infolib/sach2.jpg?w=680" class="d-block w-100" alt="...">
                     </div>
-                }
-                else
-                {
-                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                        <div>
-                            <p>
-                                @foreach (var provider in Model.ExternalLogins!)
-                                {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                }
-                            </p>
-                        </div>
-                    </form>
-                }
-            }
-        </section>
+                    <div class="carousel-item">
+                        <img src="https://cdn.hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/nhung-cau-noi-hay-ve-sach-7.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/nhung-cau-noi-hay-ve-sach-6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        const passwordInput = document.getElementById('password')
+        const warning = document.getElementById('capslock-warning')
+
+        passwordInput.addEventListener('keyup', (event) => {
+            if (event.getModifierState('CapsLock')) {
+                warning.hidden = false
+            } else {
+                warning.hidden = true
+            }
+        })
+    </script>
 }

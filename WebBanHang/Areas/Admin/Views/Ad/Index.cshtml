@@ -1,11 +1,12 @@
-﻿<h1>Quản lí trang web</h1>
+﻿@model IEnumerable<WebBanHang.Models.Product>
+<h1>Quản lí trang web</h1>
 <div class="Admin-layout">
     <ul class="Admin-grow-1">
         <li class="Admin-home">
-            <a class="Admin text-dark" asp-area="Views" asp-controller="Home" asp-action="Index">Home</a>
+            <a class="Admin text-light" asp-area="Views" asp-controller="Home" asp-action="Index">Home</a>
         </li>
         <li class="Admin">
-            <div class="Admin text-dark" asp-area="" asp-controller="" asp-action="">
+            <div class="Admin text-light" asp-area="" asp-controller="" asp-action="">
                 <ul>
                     <li>
 
@@ -14,21 +15,29 @@
             </div>
         </li> 
             <li class="Admin-Product">
-            <a class="Admin text-dark" asp-area="Admin" asp-controller="Product" asp-action="Index">quản lí sản phẩm</a>
+            <a class="Admin text-light" asp-area="Admin" asp-controller="Product" asp-action="Index">quản lí sản phẩm</a>
             </li>
             <li class="Admin">
 
             </li>
             <li class="Admin-Category">
-            <a class="Admin text-dark" asp-area="Admin" asp-controller="Categories" asp-action="Index">quản lí danh mục con</a>
+            <a class="Admin text-light" asp-area="Admin" asp-controller="Categories" asp-action="Index">quản lí danh mục con</a>
             </li>
             <li class="Admin-Menu">
-                <a class="Admin text-dark" asp-area="Admin" asp-controller="Menu" asp-action="Index">quản lí danh mục cha</a>
+            <a class="Admin text-light" asp-area="Admin" asp-controller="Menu" asp-action="Index">quản lí danh mục cha</a>
             </li>
-        <li class="Admin-Role">
-            <a class="btn btn-primary" href="/Admin/ad/account">Quản lí vai trò trang web</a>
+        <li class="Admin-Menu">
+            <a class="Admin text-light" asp-area="Admin" asp-controller="ad" asp-action="account">Quản lí vai trò trang web</a>
         </li>
-        
 
     </ul>
+</div>
+
+<button>
+    <a class="btn btn-dark text-light" asp-area="admin" asp-controller="ad" asp-action="Index">Home</a>
+</button>
+
+   
+<div>
+
 </div>

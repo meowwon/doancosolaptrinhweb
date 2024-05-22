@@ -352,6 +352,9 @@ namespace WebBanHang.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsLiked")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -366,6 +369,9 @@ namespace WebBanHang.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("TotalLikes")
+                        .HasColumnType("int");
+
                     b.Property<string>("author")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -375,9 +381,6 @@ namespace WebBanHang.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("countbuy")
-                        .HasColumnType("int");
-
-                    b.Property<int>("like")
                         .HasColumnType("int");
 
                     b.Property<string>("loaibia")
@@ -422,6 +425,36 @@ namespace WebBanHang.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductImages");
+                });
+
+            modelBuilder.Entity("WebBanHang.Models.like", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<bool>("IsLiked")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Likes");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -542,6 +575,23 @@ namespace WebBanHang.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("WebBanHang.Models.like", b =>
+                {
+                    b.HasOne("WebBanHang.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId");
+
+                    b.HasOne("WebBanHang.Models.Product", "Product")
+                        .WithMany("Likes")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("WebBanHang.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -565,6 +615,8 @@ namespace WebBanHang.Migrations
             modelBuilder.Entity("WebBanHang.Models.Product", b =>
                 {
                     b.Navigation("Images");
+
+                    b.Navigation("Likes");
                 });
 #pragma warning restore 612, 618
         }

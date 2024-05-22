@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using System.Security.Claims;
 using WebBanHang.Data;
 using WebBanHang.Models;
 using WebBanHang.Repositories;
@@ -37,24 +38,7 @@ namespace WebBanHang.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        public async Task<IActionResult> LikeProduct(int id)
-        {
-            // Lấy sản phẩm từ cơ sở dữ liệu bằng productId
-            var product = await _productRepository.GetByIdAsync(id);
-
-            if (product != null)
-            {
-                // Tăng số lượng "Like" của sản phẩm
-                product.like++;
-                await _productRepository.UpdateAsync(product); // Lưu thay đổi vào cơ sở dữ liệu
-            }
-            else
-            {
-                return NotFound();
-            }
-            // Chuyển hướng về trang chi tiết sản phẩm
-            return Ok();
-        }
+       
         public async Task<IActionResult> countbuy(int id)
         {
             // Lấy sản phẩm từ cơ sở dữ liệu bằng productId
@@ -132,6 +116,86 @@ namespace WebBanHang.Controllers
 
             // Trả về view và truyền danh sách sản phẩm tới view
             return View(productsInMainCategory);
+        }
+        public async Task<IActionResult> LikeProduct(int productId)
+        {
+            // Lấy sản phẩm
+            var product = await _context.Products.FindAsync(productId);
+
+            // Kiểm tra sản phẩm tồn tại
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            // Thêm "like" cho sản phẩm
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+            {
+                return Json(new { success = false, message = "User not logged in." });
+            }
+
+            // Kiểm tra xem đã tồn tại "like" từ người dùng cho sản phẩm này chưa
+            var existingLike = await _context.Likes
+                .FirstOrDefaultAsync(l => l.ProductId == productId && l.UserId == userId);
+
+            if (existingLike == null)
+            {
+                var newLike = new like
+                {
+                    ProductId = productId,
+                    UserId = userId,
+                    IsLiked = true
+                };
+
+                // Thêm "like" mới vào cơ sở dữ liệu
+                _context.Likes.Add(newLike);
+                await _context.SaveChangesAsync();
+
+                // Cập nhật tổng số lượt "like" của sản phẩm
+                product.TotalLikes++;
+                await _context.SaveChangesAsync();
+
+                return Json(new { success = true, totalLikes = product.TotalLikes });
+            }
+
+            return Json(new { success = false, message = "User has already liked this product." });
+        }
+        public async Task<IActionResult> UnlikeProduct(int productId)
+        {
+            // Lấy sản phẩm
+            var product = await _context.Products.FindAsync(productId);
+
+            // Kiểm tra sản phẩm tồn tại
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            // Xóa "like" cho sản phẩm
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+            {
+                return Json(new { success = false, message = "User not logged in." });
+            }
+
+            var existingLike = await _context.Likes
+                .FirstOrDefaultAsync(l => l.ProductId == productId && l.UserId == userId);
+
+            if (existingLike != null)
+            {
+                // Xóa "like" khỏi cơ sở dữ liệu
+                _context.Likes.Remove(existingLike);
+                await _context.SaveChangesAsync();
+
+                // Giảm tổng số lượt "like" của sản phẩm
+                product.TotalLikes--;
+                await _context.SaveChangesAsync();
+
+                return Json(new { success = true, totalLikes = product.TotalLikes });
+            }
+
+            return Json(new { success = false, message = "User has not liked this product." });
         }
     }
 }

@@ -4,10 +4,10 @@
     var uniqueCategories = new HashSet<string>();
 }
 <div class="menu">
-    <ul id="menu">
-        <li><a href="#">Trang chủ</a></li>
+    <ul id="menu" >
+        <li><a href="#" class="nav-link text-dark">Trang chủ</a></li>
         <li>
-            <a href="#">Thể Loại</a>
+            <a href="#" class="nav-link text-dark">Thể Loại</a>
             <ul id="submenu">
              
                     @foreach (var item in Model.Where(p => p.Category != null && p.Category.menu != null && p.Category.menu.Name != null)) 
@@ -18,7 +18,7 @@
                         {
                         uniqueCategories.Add(categoryName);
                         <li>
-                            <a asp-controller="Home" asp-action="Productmenu" class="btn btn-primary font-control" asp-route-menuId="@item.Id">
+                            <a asp-controller="Home" asp-action="Productmenu" class="btn btn-light font-control" asp-route-menuId="@item.Id">
                                 @categoryName
                             </a>
                   
@@ -28,7 +28,7 @@
                             {
                                     <li>
 
-                                        <a asp-controller="Home" asp-action="Productcategory" class="btn btn-primary font-control" asp-route-categoryId="@subItem.Id">@subItem.Name</a>
+                                        <a asp-controller="Home" asp-action="Productcategory" class="btn btn-light font-control" asp-route-categoryId="@subItem.Id">@subItem.Name</a>
                                     </li>
                             }
                        
@@ -39,7 +39,17 @@
                
             </ul>
         </li>
+        <li><a href="#" class="nav-link text-dark ">Giới thiệu</a></li>
+        <li><a href="#" class="nav-link text-dark ">Góp ý</a></li>
+        <li><a href="#" class="nav-link text-dark ">Liên hệ với chúng tôi</a></li>
+        <li><a href="#" class="nav-link text-dark ">Những câu hỏi thường gặp ?</a></li>
       </ul>             
 
 
 </div>
+<style>
+    /* Thay đổi màu nền của nút khi di chuột vào */
+    .nav-link.text-white:hover {
+        background-color: #bf00ff;
+    }
+</style>

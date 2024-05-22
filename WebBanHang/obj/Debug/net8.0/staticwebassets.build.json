@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6LRk7wsQs+wArjnjyDUczzufmRQDnPJdOyuWSiUhsPM=",
+  "Hash": "/ztYCVVmx5zVMcUxEJaR6UDyyQjxg30SiLD3huLzFss=",
   "Source": "WebBanHang",
   "BasePath": "_content/WebBanHang",
   "Mode": "Default",
@@ -1801,6 +1801,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\38d84a631741377fd816e72bf94e62f9.jpg.webp"
+    },
+    {
+      "Identity": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\backpack3.svg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "images/backpack3.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backpack3.svg"
     },
     {
       "Identity": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\banner.png",
