@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\WebBanHang.csproj": {}
+    "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\WebBanHang.csproj": {}
   },
   "projects": {
-    "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\WebBanHang.csproj": {
+    "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\WebBanHang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\WebBanHang.csproj",
+        "projectUniqueName": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\WebBanHang.csproj",
         "projectName": "WebBanHang",
-        "projectPath": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\WebBanHang.csproj",
+        "projectPath": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\WebBanHang.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\obj\\",
+        "outputPath": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

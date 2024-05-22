@@ -27,6 +27,13 @@ namespace WebBanHang.Models
         public Order? Order { get; set; }
         public bool IsLiked { get; set; }
         public ICollection<like> Likes { get; set; } = new List<like>();
+        public int SoLuongBanRa { get; set; }
+        public int LuongTonKho { get; set; }
+        public void UpdateStock(int quantitySold)
+        {
+            SoLuongBanRa += quantitySold;
+            LuongTonKho -= quantitySold;
+        }
 
     }
 }

@@ -355,6 +355,9 @@ namespace WebBanHang.Migrations
                     b.Property<bool>("IsLiked")
                         .HasColumnType("bit");
 
+                    b.Property<int>("LuongTonKho")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -368,6 +371,9 @@ namespace WebBanHang.Migrations
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("SoLuongBanRa")
+                        .HasColumnType("int");
 
                     b.Property<int>("TotalLikes")
                         .HasColumnType("int");

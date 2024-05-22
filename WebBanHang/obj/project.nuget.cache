@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Y2MmlfycM0qFw+NeqQf3eQKgKboBu86gxg8SEMuO/wGgeihoa2rwOM7vd8vtol+vOGNhGmgPZQ0ilYC929UBw==",
+  "dgSpecHash": "KZl3hZNHqVm03Y7knOEKtuhvf6JQBUu+hyJMzo9zhigcbLZ7PoDZsSPhm9DjBEQfAlZA5vYJ5lwqP8p30LaHAA==",
   "success": true,
-  "projectFilePath": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\WebBanHang.csproj",
+  "projectFilePath": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\WebBanHang.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

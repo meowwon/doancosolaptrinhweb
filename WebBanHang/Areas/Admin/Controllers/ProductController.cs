@@ -133,6 +133,9 @@ namespace WebBanHang.Areas.Admin.Controllers
                 existingProduct.nhasanxuat = product.nhasanxuat;
                 
                 existingProduct.ImageUrl = product.ImageUrl;
+                existingProduct.SoLuongBanRa = product.SoLuongBanRa;
+                existingProduct.LuongTonKho = product.LuongTonKho;
+                existingProduct.TotalLikes = product.TotalLikes;
                 await _productRepository.UpdateAsync(existingProduct);
                 return RedirectToAction(nameof(Index));
             }

@@ -1,523 +1,523 @@
 {
   "Files": [
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebBanHang.bundle.scp.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\banner\\logo-removebg-preview.png",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\banner\\logo-removebg-preview.png",
       "PackagePath": "staticwebassets\\banner\\logo-removebg-preview.png"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\Style.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\Style.css",
       "PackagePath": "staticwebassets\\css\\Style.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\bootstrap-social.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\bootstrap-social.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-social.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\bootstrap-theme.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\dataTables\\dataTables.bootstrap.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\dataTables\\dataTables.bootstrap.css",
       "PackagePath": "staticwebassets\\css\\dataTables\\dataTables.bootstrap.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\dataTables\\dataTables.responsive.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\dataTables\\dataTables.responsive.css",
       "PackagePath": "staticwebassets\\css\\dataTables\\dataTables.responsive.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\detail.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\detail.css",
       "PackagePath": "staticwebassets\\css\\detail.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\footer.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\footer.css",
       "PackagePath": "staticwebassets\\css\\footer.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\metisMenu.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\metisMenu.min.css",
       "PackagePath": "staticwebassets\\css\\metisMenu.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\morris.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\morris.css",
       "PackagePath": "staticwebassets\\css\\morris.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\site.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\startmin.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\startmin.css",
       "PackagePath": "staticwebassets\\css\\startmin.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\css\\timeline.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\css\\timeline.css",
       "PackagePath": "staticwebassets\\css\\timeline.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\favicon.ico",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\FontAwesome.otf",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\08f077dbec4b19ccb0e0a1f220a022e3.jpg.webp",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\08f077dbec4b19ccb0e0a1f220a022e3.jpg.webp",
       "PackagePath": "staticwebassets\\images\\08f077dbec4b19ccb0e0a1f220a022e3.jpg.webp"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\13538f3424087d76e604699f6b8c127a.jpg.webp",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\13538f3424087d76e604699f6b8c127a.jpg.webp",
       "PackagePath": "staticwebassets\\images\\13538f3424087d76e604699f6b8c127a.jpg.webp"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\16a27d12342c5c525bb59e0ae47c26fd.jpg.webp",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\16a27d12342c5c525bb59e0ae47c26fd.jpg.webp",
       "PackagePath": "staticwebassets\\images\\16a27d12342c5c525bb59e0ae47c26fd.jpg.webp"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\2a6154ba08df6ce6161c13f4303fa19e.jpg.webp",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\2a6154ba08df6ce6161c13f4303fa19e.jpg.webp",
       "PackagePath": "staticwebassets\\images\\2a6154ba08df6ce6161c13f4303fa19e.jpg.webp"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\38d84a631741377fd816e72bf94e62f9.jpg.webp",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\38d84a631741377fd816e72bf94e62f9.jpg.webp",
       "PackagePath": "staticwebassets\\images\\38d84a631741377fd816e72bf94e62f9.jpg.webp"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\Screenshot 2024-03-21 190728.png",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\Screenshot 2024-03-21 190728.png",
       "PackagePath": "staticwebassets\\images\\Screenshot 2024-03-21 190728.png"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\Screenshot 2024-03-26 124110.png",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\Screenshot 2024-03-26 124110.png",
       "PackagePath": "staticwebassets\\images\\Screenshot 2024-03-26 124110.png"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\backpack3.svg",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\backpack3.svg",
       "PackagePath": "staticwebassets\\images\\backpack3.svg"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\banner.png",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\banner.png",
       "PackagePath": "staticwebassets\\images\\banner.png"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\bình cc.jpg",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\bình cc.jpg",
       "PackagePath": "staticwebassets\\images\\bình cc.jpg"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\dfb6a7d7b35c42263a9103122f8b5f69.jpg.webp",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\dfb6a7d7b35c42263a9103122f8b5f69.jpg.webp",
       "PackagePath": "staticwebassets\\images\\dfb6a7d7b35c42263a9103122f8b5f69.jpg.webp"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\e0611dc69eb0990860885091780b0362.jpg.webp",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\e0611dc69eb0990860885091780b0362.jpg.webp",
       "PackagePath": "staticwebassets\\images\\e0611dc69eb0990860885091780b0362.jpg.webp"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\logo CMYK-03.png",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\logo CMYK-03.png",
       "PackagePath": "staticwebassets\\images\\logo CMYK-03.png"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\logosach.jfif",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\logosach.jfif",
       "PackagePath": "staticwebassets\\images\\logosach.jfif"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\images\\qthdc.png",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\images\\qthdc.png",
       "PackagePath": "staticwebassets\\images\\qthdc.png"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\d.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\d.js",
       "PackagePath": "staticwebassets\\js\\d.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\dataTables\\dataTables.bootstrap.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\dataTables\\dataTables.bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\dataTables\\dataTables.bootstrap.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\dataTables\\jquery.dataTables.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\dataTables\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\js\\dataTables\\jquery.dataTables.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot-data.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot-data.js",
       "PackagePath": "staticwebassets\\js\\flot-data.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\excanvas.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\excanvas.min.js",
       "PackagePath": "staticwebassets\\js\\flot\\excanvas.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.colorhelpers.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.colorhelpers.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.colorhelpers.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.canvas.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.canvas.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.canvas.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.categories.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.categories.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.categories.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.crosshair.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.crosshair.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.crosshair.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.errorbars.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.errorbars.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.errorbars.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.fillbetween.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.fillbetween.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.fillbetween.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.image.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.image.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.image.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.navigate.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.navigate.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.navigate.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.pie.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.pie.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.pie.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.resize.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.resize.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.resize.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.selection.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.selection.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.selection.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.stack.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.stack.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.stack.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.symbol.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.symbol.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.symbol.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.threshold.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.threshold.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.threshold.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.time.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.time.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.time.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.tooltip.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\flot\\jquery.flot.tooltip.min.js",
       "PackagePath": "staticwebassets\\js\\flot\\jquery.flot.tooltip.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\jquery.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\metisMenu.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\metisMenu.min.js",
       "PackagePath": "staticwebassets\\js\\metisMenu.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\morris-data.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\morris-data.js",
       "PackagePath": "staticwebassets\\js\\morris-data.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\morris.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\morris.min.js",
       "PackagePath": "staticwebassets\\js\\morris.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\raphael.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\raphael.min.js",
       "PackagePath": "staticwebassets\\js\\raphael.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\site.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\js\\startmin.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\js\\startmin.js",
       "PackagePath": "staticwebassets\\js\\startmin.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\DoAnCoSo\\3\\doancosohutech\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\DoAnCoSo\\doancosolaptrinhweb\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

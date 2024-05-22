@@ -18,7 +18,7 @@
                         {
                         uniqueCategories.Add(categoryName);
                         <li>
-                            <a asp-controller="Home" asp-action="Productmenu" class="btn btn-light font-control" asp-route-menuId="@item.Id">
+                            <a asp-controller="Home" asp-action="ProductcategoryByMenu" class="btn btn-light font-control" asp-route-menuId="@item.Category.menu.Id">
                                 @categoryName
                             </a>
                   
@@ -43,8 +43,8 @@
         <li><a href="#" class="nav-link text-dark ">Góp ý</a></li>
         <li><a href="#" class="nav-link text-dark ">Liên hệ với chúng tôi</a></li>
         <li><a href="#" class="nav-link text-dark ">Những câu hỏi thường gặp ?</a></li>
-      </ul>             
-
+        <li><a class="btn btn-outline-danger" asp-area="" asp-controller="Home" asp-action="likeuser"><i class="bi bi-heart-fill"></i>Danh sách sản phẩm bạn đã thích</a></li>
+      </ul>
 
 </div>
 <style>
