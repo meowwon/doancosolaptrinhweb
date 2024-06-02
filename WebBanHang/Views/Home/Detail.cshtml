@@ -21,7 +21,8 @@
             <p><strong>Giá:</strong> @Model.Description</p>
             <p><strong>Số lượt thích:</strong> @Model.TotalLikes</p>
             <p><strong>Giá:</strong> @Model.Price.ToString("C")</p>
-          
+                <p><strong>Số lượng bán ra</strong>: @Model.SoLuongBanRa</p>
+                <p><strong>số lượng còn lại</strong>:  @Model.LuongTonKho</p>
             <p><strong>Loại sản phẩm:</strong> @Model.Category.Name</p>
             <h5>Thông tin sản phẩm</h5>
           ` <table>
@@ -61,14 +62,14 @@
         </form>
             <form>
                 @Html.AntiForgeryToken()
-                <button id="likeButton" type="button" data-product-id="@Model.Id">
+                <button class="btn btn-info" id="likeButton" type="button" data-product-id="@Model.Id">
                     @if (Model.IsLiked)
                     {
-                        <text>Unlike</text>
+                        <text><i class="bi bi-heartbreak-fill"></i>Unlike</text>
                     }
                     else
                     {
-                        <text>Like</text>
+                        <text><i class="bi bi-heart-fill"></i>Like</text>
                     }
                 </button>
             </form>

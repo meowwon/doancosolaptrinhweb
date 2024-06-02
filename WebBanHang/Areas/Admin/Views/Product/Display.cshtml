@@ -8,8 +8,7 @@
     <p>nhà sản xuất: @Model.nhasanxuat</p>
     <p>loại bìa: @Model.loaibia</p>
     <p>số trang:  @Model.sotrang</p>
-    <p>số lượng bán ra: @Model.SoLuongBanRa</p>
-    <p>số tồn kho:  @Model.LuongTonKho</p>
+    <p>Còn lại:  @Model.LuongTonKho</p>
     @if (!string.IsNullOrEmpty(Model.ImageUrl))
     {
         <img src="@Model.ImageUrl" alt="Product Image" style="max-width:

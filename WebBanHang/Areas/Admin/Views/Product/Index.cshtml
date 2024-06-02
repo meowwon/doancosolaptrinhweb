@@ -36,6 +36,7 @@
                 <th>author</th>
                 <th>Price</th>
                 <th>Description</th>
+                <th>Số lượng còn lại</th>
                 <th>Category</th>               
                 <th>the loai tong</th>
                 <th>Images</th>
@@ -51,6 +52,7 @@
                     <td>@product.author</td>
                     <td>@product.Price</td>
                     <td>@product.Description</td>
+                    <td>@product.LuongTonKho</td>
                     <td>@product.Category?.Name</td>
                     <td>@(product.Category?.menu?.Name ?? "Unknown")</td>
 
