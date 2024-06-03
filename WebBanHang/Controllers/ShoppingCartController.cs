@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis;
+using System.Security.Claims;
 using WebBanHang.Data;
 using WebBanHang.Extensions;
 using WebBanHang.Models;
@@ -184,8 +185,17 @@ namespace WebBanHang.Controllers
                 var cartItem = cart.Items.FirstOrDefault(item => item.ProductId == productId);
                 if (cartItem != null)
                 {
-                    cartItem.Quantity++;
-                    HttpContext.Session.SetObjectAsJson("Cart", cart);
+                    var product = _context.Products.FirstOrDefault(p => p.Id == productId);
+                    if (product != null && cartItem.Quantity < product.LuongTonKho) // Kiểm tra số lượng tồn kho
+                    {
+                        cartItem.Quantity++;
+                        HttpContext.Session.SetObjectAsJson("Cart", cart);
+                    }
+                    else
+                    {
+                        // Tùy chọn: Hiển thị thông báo cho người dùng rằng số lượng đã đạt tối đa
+                        TempData["Error"] = "Không thể thêm quá số lượng tồn kho.";
+                    }
                 }
             }
             return RedirectToAction("Index");
@@ -236,6 +246,15 @@ namespace WebBanHang.Controllers
         public IActionResult PaymentFail()
         {
             return View();
+        }
+        public IActionResult UserOrders()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var orders = _context.Orders
+                .Where(o => o.UserId == userId)
+                .ToList();
+
+            return View(orders);
         }
     }
 }

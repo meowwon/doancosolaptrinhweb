@@ -3,7 +3,45 @@
 @{
     ViewData["Title"] = "Categories";
 }
+<div class="Admin-layout">
+    <ul class="Admin-grow-1">
+        <li class="Admin-home">
+            <a class="Admin text-light" asp-area="Views" asp-controller="Home" asp-action="Index">Home</a>
+        </li>
+        <li class="Admin">
+            <div class="Admin text-light" asp-area="" asp-controller="" asp-action="">
+                <ul>
+                    <li>
 
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="Admin-Product">
+            <a class="Admin text-light" asp-area="Admin" asp-controller="Product" asp-action="Index">quản lí sản phẩm</a>
+        </li>
+        <li class="Admin">
+
+        </li>
+        <li class="Admin-Category">
+            <a class="Admin text-light" asp-area="Admin" asp-controller="Categories" asp-action="Index">quản lí danh mục con</a>
+        </li>
+        <li class="Admin-Menu">
+            <a class="Admin text-light" asp-area="Admin" asp-controller="Menu" asp-action="Index">quản lí danh mục cha</a>
+        </li>
+        <li class="Admin-Menu">
+            <a class="Admin text-light" asp-area="Admin" asp-controller="ad" asp-action="account">Quản lí vai trò trang web</a>
+        </li>
+        <li class="Admin-Menu">
+            <a class="Admin text-light" asp-area="Admin" asp-controller="Order" asp-action="Orderlist">Quản lí đơn hàng</a>
+        </li>
+
+    </ul>
+</div>
+
+<button>
+    <a class="btn btn-dark text-light" asp-area="admin" asp-controller="ad" asp-action="Index">Home</a>
+</button>
 <h2>Categories</h2>
 
 <p>

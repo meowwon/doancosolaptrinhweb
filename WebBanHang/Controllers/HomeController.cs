@@ -186,15 +186,28 @@ namespace WebBanHang.Controllers
         }
         public async Task<IActionResult> ProductcategoryByMenu(int menuId)
         {
+            var productdf = await _productRepository.GetAllAsync();
             // Truy vấn cơ sở dữ liệu để lấy các sản phẩm thuộc menu có ID là menuId
             var productsInMenu = await _context.Products
                 .Where(p => p.Category.menu.Id == menuId && p.LuongTonKho > 0)
                 .ToListAsync();
 
             // Trả về view và truyền danh sách sản phẩm tới view
+            ViewBag.MenuId = menuId;
             return View(productsInMenu);
         }
-
+        public async Task<IActionResult> SortByPriceAsc()
+        {
+            var sortedProducts = await _productRepository.GetAllAsync();
+            sortedProducts = sortedProducts.OrderBy(p => p.Price);
+            return View("Index", sortedProducts);
+        }
+        public async Task<IActionResult> giamPriceAsc()
+        {
+            var sortedProducts = await _productRepository.GetAllAsync();
+            sortedProducts = sortedProducts.OrderByDescending(p => p.Price);
+            return View("Index", sortedProducts);
+        }
 
     }
 }

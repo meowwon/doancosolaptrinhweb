@@ -300,6 +300,10 @@ namespace WebBanHang.Migrations
                     b.Property<int>("count")
                         .HasColumnType("int");
 
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("UserId");

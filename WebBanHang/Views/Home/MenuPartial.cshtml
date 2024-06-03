@@ -42,8 +42,12 @@
         <li><a href="#" class="nav-link text-dark ">Giới thiệu</a></li>
         <li><a href="#" class="nav-link text-dark ">Góp ý</a></li>
         <li><a href="#" class="nav-link text-dark ">Liên hệ với chúng tôi</a></li>
-        <li><a href="#" class="nav-link text-dark ">Những câu hỏi thường gặp ?</a></li>
-        <li><a class="btn btn-outline-danger" asp-area="" asp-controller="Home" asp-action="likeuser"><i class="bi bi-heart-fill"></i>Danh sách sản phẩm bạn đã thích</a></li>
+        <li><a class="btn btn-outline-info" asp-area="" asp-controller="ShoppingCart" asp-action="UserOrders"><i class="bi bi-bag-check"></i> Lịch sử đơn hàng</a></li>
+        <li><a class="btn btn-outline-danger" asp-area="" asp-controller="Home" asp-action="likeuser"><i class="bi bi-heart"></i> Danh sách sản phẩm bạn đã thích</a></li>
+        @if (User.IsInRole("Admin"))
+        {
+            <a class="btn btn-warning" href="/Admin/ad">Quản lí trang web</a>
+        }
       </ul>
 
 </div>
